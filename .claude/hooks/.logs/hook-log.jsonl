@@ -1,0 +1,6 @@
+{"ts":"2026-06-03T02:46:17.926Z","hook":"session-init","projectRoot":"/Users/tdx/tdx-model-tran/javaspace/pig260528","gitBranch":"tdx-master"}
+{"ts":"2026-06-03T02:46:18.072Z","hook":"stop-notify","projectName":"pig260528","duration":"0m 0s","iterations":0}
+{"ts":"2026-06-03T02:46:44.305Z","hook":"session-init","projectRoot":"/Users/tdx/tdx-model-tran/javaspace/pig260528","gitBranch":"tdx-master"}
+{"ts":"2026-06-03T02:47:19.730Z","hook":"dev-rules-reminder","action":"inject","iterationCount":0}
+{"ts":"2026-06-03T02:47:19.732Z","hook":"iteration-context","action":"skip","iterationCount":1}
+{"ts":"2026-06-03T02:47:29.294Z","hook":"subagent-context","action":"skip","reason":"no-active-tsv"}
