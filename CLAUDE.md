@@ -147,3 +147,20 @@ SQL 文件在 [db/](db/) 目录下，Docker Compose 会通过 [db/Dockerfile](db
 ### 依赖更新
 
 项目配置了 Renovate（`.github/renovate.json`）自动管理依赖更新，修改 `pom.xml` 依赖版本时注意与 Renovate 规则一致。
+
+### 🤖 全局行为军规 (Global Core Rules)
+1. **Think Before Coding**: 明确假设，不确定先问，避免过度设计。
+2. **Simplicity First**: 极简优先，不要写用不到的抽象。
+3. **Surgical Changes**: 外科手术式修改，不乱动现有代码。
+4. **Goal-Driven Execution**: 目标导向，主动通过测试日志自循环修复。
+5. **Token budgets**: 注意 Token 消耗，不静默失败。
+   *(Note: 严格遵循 tdx 的 12 条工程原则，遇到冲突大声报错 Fail Loud)*
+
+### 🛠️ AI 技能路由 (Skills Routing)
+当 tdx 向你下达任务时，请**首先评估当前所处的阶段**，然后去读取对应路径下的 Skill 文件，严格按照该文件内的标准执行操作，**不要加载不需要的技能**。
+
+- **阶段一：需求分析与设计** -> 读取 `.harness/skills/01-requirement.md`
+- **阶段二：数据库设计与建表** -> 读取 `.harness/skills/02-database.md`
+- **阶段三：前后端业务代码编写** -> 读取 `.harness/skills/03-coding.md`
+- **阶段四：测试与交付验收** -> 读取 `.harness/skills/04-testing.md`
+- **阶段五：变更记录 (必须在任务结束前执行)** -> 读取 `.harness/skills/05-changelog.md`
